@@ -56,6 +56,7 @@ if(window.location.hash) {
 	$('html, body').stop().animate({scrollTop : 0});
 }
 $('a[href^="#"]:not([href="#"], [data-toggle="tab"], [data-toggle="collapse"], [data-slide="prev"], [data-slide="next"])').click(function (e) {
+	console.log($(this));
 	e.preventDefault();
 	if(location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
 		let targets = $(this.hash),

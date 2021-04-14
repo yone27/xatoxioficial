@@ -99,3 +99,26 @@ body > header .navbar .navbar-nav li > a:hover {
     box-shadow: inset 0 -4px #4682b4 !important;
     color: #4682b4;
 }
+
+
+.section.about.about-a {
+    padding:0 0 50px 0;
+}
+.slider .carousel.full-screen {
+    height: 520px;
+}
+
+.slider .carousel .carousel-inner>.item>img, .slider .carousel .carousel-inner>.item>figure img {
+    max-width: 70%;
+    height: 540px;
+    position: static;
+    margin: 0 auto;
+}
+
+body>header .navbar .navbar-nav li.active>a {
+    box-shadow: inset 0 -4px #4682b4 !important;
+    color: #4682b4;
+}
+body>header .navbar .navbar-nav li.active>a:focus, body>header .navbar .navbar-nav li.active>a:active {
+    color: #4682b4;
+}
