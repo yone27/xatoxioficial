@@ -514,7 +514,7 @@
     padding: 15px 0;
     background-color: #eee
 }
-
+/* 
 .breadcrumb-container .navbar-breadcrumb .breadcrumb-list {
     margin: 0;
     padding: 0
@@ -537,19 +537,19 @@
 
 .breadcrumb-container .navbar-breadcrumb .breadcrumb-list .breadcrumb-item:first-of-type:before {
     display: none
-}
+} */
 
-@media (min-width: 768px) and (max-width: 991px) {
+/* @media (min-width: 768px) and (max-width: 991px) {
     .navbar-breadcrumb {
         text-align: center
     }
-}
+} */
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
     .navbar-breadcrumb {
         display: none
     }
-}
+} */
 
 .btn,
 a,
@@ -22044,7 +22044,7 @@ body>header>*.top-header>.container-fluid>*.header-cart {
     display: block
 }
 
-body>header.affix .navbar a.navbar-brand figure {
+/* body>header.affix .navbar a.navbar-brand figure {
     height: 60px
 }
 
@@ -22453,7 +22453,7 @@ body>header.menu-mini>*.navbar .navbar-collapse .navbar-nav li>a:hover {
     box-shadow: inset 4px 0 #944b96;
     background-color: #222;
     color: #ffffff
-}
+} */
 
 body>header.menu-a.affix .top-header .container .logo figure img,
 body>header.menu-a.affix .top-header .container-fluid .logo figure img {
@@ -22645,7 +22645,7 @@ body>header.menu-a .top-header .container-fluid .logo figure img {
     transition: height 0.4s ease-in-out, max-height 0.4s ease-in-out, width 0.4s, max-width 0.4s ease-in-out
 }
 
-body>header.menu-a .navbar {
+/* body>header.menu-a .navbar {
     background-color: #1b1b1b
 }
 
@@ -22733,7 +22733,7 @@ body>header.menu-b .navbar .navbar-nav li.dropdown .dropdown-menu li.active a {
 
 body>header.menu-b .navbar .navbar-nav li.dropdown .dropdown-menu li.active a:hover {
     background-color: #fff
-}
+} */
 
 body.transparent>header {
     position: fixed;
@@ -22762,7 +22762,7 @@ body.transparent>header .top-menu address .address a:hover {
     color: #ccc
 }
 
-body.transparent>header.affix .navbar {
+/* body.transparent>header.affix .navbar {
     background-color: rgba(0, 0, 0, 0.6);
     border-bottom: 0
 }
@@ -22818,9 +22818,9 @@ body.transparent>header .navbar .navbar-nav .dropdown-menu li.active a {
     -webkit-box-shadow: inset 4px 0 #944b96;
     box-shadow: inset 4px 0 #944b96;
     background-color: #723a74
-}
+} */
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
     body>header.affix .top-menu {
         margin-top: -40px
     }
@@ -23040,9 +23040,9 @@ body.transparent>header .navbar .navbar-nav .dropdown-menu li.active a {
     body.transparent>header .top-menu .social-list li a {
         margin-bottom: 0
     }
-}
+} */
 
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
     body>header .top-menu {
         display: none
     }
@@ -23326,9 +23326,9 @@ body.transparent>header .navbar .navbar-nav .dropdown-menu li.active a {
     body.transparent>header .navbar .navbar-collapse .navbar-nav li>a {
         line-height: 40px
     }
-}
+} */
 
-@media (max-width: 479px) {
+/* @media (max-width: 479px) {
     body>header.affix .navbar a.navbar-brand figure {
         height: 55px !important
     }
@@ -23525,8 +23525,8 @@ body.transparent>header .navbar .navbar-nav .dropdown-menu li.active a {
     body>header .navbar a.navbar-brand figure img {
         max-height: 75px !important;
         max-width: 230px !important
-    }
-}
+    } 
+}*/
 
 .icon {
     color: #555;
@@ -25844,7 +25844,7 @@ ul.social.theme li a:hover i {
     display: table-cell;
     vertical-align: middle
 }
-
+/* 
 .section.login .profile nav.login-profile {
     background-color: white;
     margin-left: auto;
@@ -25907,7 +25907,7 @@ ul.social.theme li a:hover i {
 .section.login .profile nav.login-profile .btn {
     margin-bottom: 10px;
     width: 100%
-}
+} */
 
 @media (min-width: 768px) and (max-width: 991px) {
     .section.comments .panel-white.post .post-heading {
@@ -25939,7 +25939,7 @@ ul.social.theme li a:hover i {
     z-index: 99
 }
 
-.sidebar-menu.sidebar-nav .input-group.search-sidebar~.collapse-sidebar {
+/* .sidebar-menu.sidebar-nav .input-group.search-sidebar~.collapse-sidebar {
     margin-top: 30px
 }
 
@@ -26159,7 +26159,7 @@ ul.social.theme li a:hover i {
         padding: 0;
         margin: 0
     }
-}
+} */
 
 .slider {
     position: relative
