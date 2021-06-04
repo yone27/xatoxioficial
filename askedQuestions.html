@@ -31,12 +31,11 @@
     <header class="menu-b" data-spy="affix" data-offset-top="0" style="background-color: rgba(0, 0, 0, .5);">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container fluid-md-less">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon p-4"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav ul-menu">
                         <li class="nav-item">
                             <a class="nav-link" href="index.html"> About </a>
                         </li>
@@ -54,7 +53,7 @@
                             <a class="nav-link" href="#"> FAQ </a>
                         </li>
                     </ul>
-            </div>
+                </div>
             </div>
         </nav>
     </header>
@@ -72,66 +71,43 @@
                             <div class="card">
                                 <div class="card-header" id="headingOne">
                                     <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                            data-target="#collapseOne" aria-expanded="false"
-                                            aria-controls="collapseOne"> ¿Cómo acceder a las tiendas para descargar el
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"> ¿Cómo acceder a las tiendas para descargar el
                                             App? </button>
                                     </h5>
                                 </div>
-                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
-                                    data-parent="#accordion">
+                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                                     <div class="card-body justify-text">
-                                        En la página <a
-                                            href="https://www.xatoxi.com/italcambio/downloadPage.php">https://www.xatoxi.com/italcambio/downloadPage.php</a>
-                                        conseguirá los enlaces a las tiendas.
+                                        En la página <a href="https://www.xatoxi.com/italcambio/downloadPage.php">https://www.xatoxi.com/italcambio/downloadPage.php</a> conseguirá los enlaces a las tiendas.
                                     </div>
                                 </div>
                             </div>
                             <div class="card">
                                 <div class="card-header" id="headingTwo">
                                     <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                            data-target="#collapseTwo" aria-expanded="false"
-                                            aria-controls="collapseTwo"> ¿Cómo ingreso la primera vez, después que me
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> ¿Cómo ingreso la primera vez, después que me
                                             descargue <br>la App de la tienda? </button>
                                     </h5>
                                 </div>
-                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                    data-parent="#accordion">
-                                    <div class="card-body justify-text"> Si usted se descargó la App de la tienda
-                                        oficial, por favor seleccionar <b>PERFIL</b> y luego la opción <b>Registro</b>.
-                                        Allí coloca sus datos: email, país, número de teléfono y le da Aceptar. Se le
-                                        enviará al email
-                                        indicando una clave única <b>OTP</b> (del inglés One Time Password) para
-                                        certificar sea su correo, este OTP debe ser colocado para confirmación y
-                                        seguidamente se le enviará otro email el cual contiene el PIN y el
-                                        Alias (es único que lo identifica internamente). Ya puede acceder a cualquier
-                                        otro servicio del menú que por su seguridad siempre le va a pedir el PIN. Como
-                                        usted puede recibir varios emails, uno con el OTP y otro
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                    <div class="card-body justify-text"> Si usted se descargó la App de la tienda oficial, por favor seleccionar <b>PERFIL</b> y luego la opción <b>Registro</b>. Allí coloca sus datos: email, país, número de teléfono y le da Aceptar. Se le enviará al email
+                                        indicando una clave única <b>OTP</b> (del inglés One Time Password) para certificar sea su correo, este OTP debe ser colocado para confirmación y seguidamente se le enviará otro email el cual contiene el PIN y el
+                                        Alias (es único que lo identifica internamente). Ya puede acceder a cualquier otro servicio del menú que por su seguridad siempre le va a pedir el PIN. Como usted puede recibir varios emails, uno con el OTP y otro
                                         con el PIN. El email donde se encuentra su alias es el que tiene el PIN.
-                                        <br><br> Una vez registrado, se recomienda seleccionar la opción PERFIL, colocar
-                                        su PIN y darla Aceptar para actualizar su perfil en el sistema.
-                                        En este momento así no complete los datos de su perfil su dispositivo quedó
-                                        registrado en el Sistema.</div>
+                                        <br><br> Una vez registrado, se recomienda seleccionar la opción PERFIL, colocar su PIN y darla Aceptar para actualizar su perfil en el sistema. En este momento así no complete los datos de su perfil su dispositivo
+                                        quedó registrado en el Sistema.</div>
                                 </div>
                             </div>
                             <div class="card">
                                 <div class="card-header" id="headingThree">
                                     <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                            data-target="#collapseThree" aria-expanded="false"
-                                            aria-controls="collapseThree"> ¿Cómo ingreso la primera vez, si me registré
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> ¿Cómo ingreso la primera vez, si me registré
                                             desde la <br>página <a
                                                 href="https://www.xatoxi.com/italcambio/">https://www.xatoxi.com/italcambio/</a>
                                             ? </button>
                                     </h5>
                                 </div>
-                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                                    data-parent="#accordion">
-                                    <div class="card-body justify-text">En este caso, usted ya se encuentra registrado y
-                                        en su email recibió un PIN. Se recomienda seleccionar <b>PERFIL</b> colocar allí
-                                        su PIN y le da Aceptar. En el momento que presione Aceptar ya su dispositivo se
-                                        encuentra
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                    <div class="card-body justify-text">En este caso, usted ya se encuentra registrado y en su email recibió un PIN. Se recomienda seleccionar <b>PERFIL</b> colocar allí su PIN y le da Aceptar. En el momento que presione Aceptar ya su dispositivo se encuentra
                                         registrado en el sistema.
                                     </div>
                                 </div>
@@ -139,17 +115,11 @@
                             <div class="card">
                                 <div class="card-header" id="headingFour">
                                     <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                            data-target="#collapseFour" aria-expanded="false"
-                                            aria-controls="collapseFour"> ¿Cómo Obtengo el PIN? </button>
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"> ¿Cómo Obtengo el PIN? </button>
                                     </h5>
                                 </div>
-                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
-                                    data-parent="#accordion">
-                                    <div class="card-body justify-text"> Ingresando a la página <a
-                                            href="https://www.xatoxi.com/italcambio/">https://www.xatoxi.com/italcambio/</a>
-                                        donde se registra y luego puede descargarse el App en los enlaces de la página
-                                        de descarga allí proporcionados.
+                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                                    <div class="card-body justify-text"> Ingresando a la página <a href="https://www.xatoxi.com/italcambio/">https://www.xatoxi.com/italcambio/</a> donde se registra y luego puede descargarse el App en los enlaces de la página de descarga allí proporcionados.
                                         Si ya tiene el App descargado, por favor siga los pasos indicados en <i>¿Cómo
                                             ingreso la primera vez, después que me descargue la App de la tienda?</i>
                                     </div>
@@ -158,18 +128,12 @@
                             <div class="card">
                                 <div class="card-header" id="headingFive">
                                     <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                            data-target="#collapseFive" aria-expanded="false"
-                                            aria-controls="collapseFive"> ¿Se me olvidó el PIN, qué debo hacer?
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive"> ¿Se me olvidó el PIN, qué debo hacer?
                                         </button>
                                     </h5>
                                 </div>
-                                <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
-                                    data-parent="#accordion">
-                                    <div class="card-body justify-text"> El PIN es creado al registrarse, y usted lo
-                                        recibe en su email donde también se indica su alias. Luego, usted puede
-                                        cambiarlo en el menú <b>PERFIL</b>, introduciendo el PIN actual y seleccionando
-                                        la opción <b>Cambio de
+                                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                                    <div class="card-body justify-text"> El PIN es creado al registrarse, y usted lo recibe en su email donde también se indica su alias. Luego, usted puede cambiarlo en el menú <b>PERFIL</b>, introduciendo el PIN actual y seleccionando la opción <b>Cambio de
                                             PIN</b>, también puede generar uno nuevo seleccionando la opción <b>Olvido
                                             de PIN</b>.
                                     </div>
@@ -178,95 +142,65 @@
                             <div class="card">
                                 <div class="card-header" id="headingSix">
                                     <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                            data-target="#collapseSix" aria-expanded="false"
-                                            aria-controls="collapseSix"> ¿Por qué me solicita el PIN, cada vez que
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix"> ¿Por qué me solicita el PIN, cada vez que
                                             selecciono una <br> opción del Menú?</button>
                                     </h5>
                                 </div>
-                                <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
-                                    data-parent="#accordion">
-                                    <div class="card-body justify-text"> Por seguridad, se pide el PIN para evitar
-                                        operaciones no deseadas.
+                                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                                    <div class="card-body justify-text"> Por seguridad, se pide el PIN para evitar operaciones no deseadas.
                                     </div>
                                 </div>
                             </div>
                             <div class="card">
                                 <div class="card-header" id="headingSeven">
                                     <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                            data-target="#collapseSeven" aria-expanded="false"
-                                            aria-controls="collapseSeven"> ¿Por qué para culminar cada operación se debe
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven"> ¿Por qué para culminar cada operación se debe
                                             presionar <br> el candado y genera un OTP (código de una vez, del inglés
                                             <br> One Time Password) que se deba aceptar sino no <br> procesa la
                                             operación? </button>
                                     </h5>
                                 </div>
-                                <div id="collapseSeven" class="collapse" aria-labelledby="headingFive"
-                                    data-parent="#accordion">
-                                    <div class="card-body justify-text"> Por seguridad, cada operación tiene una huella
-                                        que es un código cifrado y se genera una sola vez y el mismo debe ser aceptado
-                                        para completar el registro.
+                                <div id="collapseSeven" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                                    <div class="card-body justify-text"> Por seguridad, cada operación tiene una huella que es un código cifrado y se genera una sola vez y el mismo debe ser aceptado para completar el registro.
                                     </div>
                                 </div>
                             </div>
                             <div class="card">
                                 <div class="card-header" id="headingEight">
                                     <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                            data-target="#collapseEight" aria-expanded="false"
-                                            aria-controls="collapseEight"> ¿Debo incluir el número de teléfono, en cuál
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight"> ¿Debo incluir el número de teléfono, en cuál
                                             formato? </button>
                                     </h5>
                                 </div>
-                                <div id="collapseEight" class="collapse" aria-labelledby="headingEight"
-                                    data-parent="#accordion">
-                                    <div class="card-body justify-text"> Para poder lograr una comunicación más efectiva
-                                        con usted es necesario tener su número de teléfono correcto. Por ejemplo, para
-                                        Venezuela se requiere que esté en el formato código del país (por ejemplo en
-                                        Venezuela es
-                                        58), código de la operadora telefónica (por ejemplo en Venezuela es 4xx) y
-                                        número telefónico, solo dígitos sin guiones ni espacios, NNNNNNN.
+                                <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+                                    <div class="card-body justify-text"> Para poder lograr una comunicación más efectiva con usted es necesario tener su número de teléfono correcto. Por ejemplo, para Venezuela se requiere que esté en el formato código del país (por ejemplo en Venezuela es
+                                        58), código de la operadora telefónica (por ejemplo en Venezuela es 4xx) y número telefónico, solo dígitos sin guiones ni espacios, NNNNNNN.
                                     </div>
                                 </div>
                             </div>
                             <div class="card">
                                 <div class="card-header" id="headingNine">
                                     <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                            data-target="#collapseNine" aria-expanded="false"
-                                            aria-controls="collapseNine"> ¿Por qué solicitan una firma digital y qué es?
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine"> ¿Por qué solicitan una firma digital y qué es?
                                         </button>
                                     </h5>
                                 </div>
-                                <div id="collapseNine" class="collapse" aria-labelledby="headingNine"
-                                    data-parent="#accordion">
-                                    <div class="card-body justify-text"> La firma digital es la firma que usted realiza
-                                        en su teléfono para poder completar la operación. El App le muestra la opción
-                                        para firmar cuando la misma se requiere mostrando la opción de Documentos
-                                        faltantes, allí
-                                        selecciona el lápiz, firma en la pantalla de su teléfono y le da la opción
-                                        guardar.
+                                <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
+                                    <div class="card-body justify-text"> La firma digital es la firma que usted realiza en su teléfono para poder completar la operación. El App le muestra la opción para firmar cuando la misma se requiere mostrando la opción de Documentos faltantes, allí
+                                        selecciona el lápiz, firma en la pantalla de su teléfono y le da la opción guardar.
                                     </div>
                                 </div>
                             </div>
                             <div class="card">
                                 <div class="card-header" id="headingTen">
                                     <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                            data-target="#collapseTen" aria-expanded="false"
-                                            aria-controls="collapseTen"> ¿Por qué solicitan documentos como la Cédula de
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen"> ¿Por qué solicitan documentos como la Cédula de
                                             Identidad <br> firma o el RIF? </button>
                                     </h5>
                                 </div>
-                                <div id="collapseTen" class="collapse" aria-labelledby="headingTen"
-                                    data-parent="#accordion">
-                                    <div class="card-body justify-text"> Las regulaciones de Cumplimiento, prevención
-                                        Legitimización de Capitales exigen corroborar los datos de las operaciones
-                                        contra documentos y depende de la regulación de cada país. Cuando una operación
-                                        requiera un documento,
-                                        el App muestra la opción de documentos faltantes y los mismos deben ser
-                                        cargados. El App le solicitará permisos para poder explorarlos.
+                                <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
+                                    <div class="card-body justify-text"> Las regulaciones de Cumplimiento, prevención Legitimización de Capitales exigen corroborar los datos de las operaciones contra documentos y depende de la regulación de cada país. Cuando una operación requiera un documento,
+                                        el App muestra la opción de documentos faltantes y los mismos deben ser cargados. El App le solicitará permisos para poder explorarlos.
                                     </div>
                                 </div>
                             </div>
@@ -278,56 +212,39 @@
                             <div class="card">
                                 <div class="card-header" id="headingEleven">
                                     <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                            data-target="#collapseEleven" aria-expanded="false"
-                                            aria-controls="collapseEleven"> ¿Error al subir documento de
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven"> ¿Error al subir documento de
                                             identidad/firma/huella? </button>
                                     </h5>
                                 </div>
-                                <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven"
-                                    data-parent="#accordion2">
-                                    <div class="card-body justify-text"> Se tiene un registro indicando falta subir su
-                                        firma digital en el teléfono, documento de identidad o huella. Se requiere
-                                        colocar por la regulación de Legitimación de Capitales y Prevención y por su
-                                        seguridad. <br> En la misma pantalla de la transacción (por ejemplo RECEPCIÓN DE
-                                        REMESA) le sale una opción al final con DOCUMENTOS REQUERIDOS. <br> Si se
-                                        requiere firma en el teléfono, seleccionando FIRMA Y luego le aparece un
-                                        lápiz para firmar y darle GUARDAR. <br> Luego selecciona DOCUMENTO de IDENTIDAD
-                                        y sube la imagen de la CI que tenga en su teléfono. <br> Esto se hace la primera
-                                        vez, si mantiene sus documentos actualizados, no se
-                                        le pedirá para otras operaciones.</div>
+                                <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordion2">
+                                    <div class="card-body justify-text"> Se tiene un registro indicando falta subir su firma digital en el teléfono, documento de identidad o huella. Se requiere colocar por la regulación de Legitimación de Capitales y Prevención y por su seguridad. <br> En
+                                        la misma pantalla de la transacción (por ejemplo RECEPCIÓN DE REMESA) le sale una opción al final con DOCUMENTOS REQUERIDOS. <br> Si se requiere firma en el teléfono, seleccionando FIRMA Y luego le aparece un lápiz
+                                        para firmar y darle GUARDAR. <br> Luego selecciona DOCUMENTO de IDENTIDAD y sube la imagen de la CI que tenga en su teléfono. <br> Esto se hace la primera vez, si mantiene sus documentos actualizados, no se le pedirá
+                                        para otras operaciones. <br> <b>Nota:</b> En caso de persistir el problema. Por favor verifique que otorgó los permisos a la App para acceder a los archivos en su teléfono. Para ello, diríjase a <b>Ajuste-Aplicaciones</b>,
+                                        en la lista de las App instaladas busque ITALCAMBIO y presione en la App, luego presione <b>accesos o permisos de la app</b> y otorgue el permiso al <b>almacenamiento</b>. Ingrese a la App e intente nuevamente cargar
+                                        documentos.
+                                    </div>
                                 </div>
                             </div>
                             <div class="card">
                                 <div class="card-header" id="headingTwelve">
                                     <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                            data-target="#collapseTwelven" aria-expanded="false"
-                                            aria-controls="collapseTwelven"> ¿Qué es el Alias? </button>
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwelven" aria-expanded="false" aria-controls="collapseTwelven"> ¿Qué es el Alias? </button>
                                     </h5>
                                 </div>
-                                <div id="collapseTwelven" class="collapse" aria-labelledby="headingTwelven"
-                                    data-parent="#accordion2">
-                                    <div class="card-body justify-text"> Es un código único por cliente, que le puede
-                                        servir para comunicarse con otros clientes o para alguna comunicación con el
-                                        personal de atención al cliente. </div>
+                                <div id="collapseTwelven" class="collapse" aria-labelledby="headingTwelven" data-parent="#accordion2">
+                                    <div class="card-body justify-text"> Es un código único por cliente, que le puede servir para comunicarse con otros clientes o para alguna comunicación con el personal de atención al cliente. </div>
                                 </div>
                             </div>
                             <div class="card">
                                 <div class="card-header" id="headingThirteen">
                                     <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                            data-target="#collapseThirteen" aria-expanded="false"
-                                            aria-controls="collapseThirteen"> ¿Cómo actualizo o incluyo mi dirección?
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen"> ¿Cómo actualizo o incluyo mi dirección?
                                         </button>
                                     </h5>
                                 </div>
-                                <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen"
-                                    data-parent="#accordion2">
-                                    <div class="card-body justify-text"> Se requiere contar con una dirección por
-                                        regulación de Legitimación de Capitales y Prevención y por su seguridad, deben
-                                        contener al menos 20 caracteres de longitud. <br> En el APP en la Sección perfil
-                                        en el campo dirección,
+                                <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen" data-parent="#accordion2">
+                                    <div class="card-body justify-text"> Se requiere contar con una dirección por regulación de Legitimación de Capitales y Prevención y por su seguridad, deben contener al menos 20 caracteres de longitud. <br> En el APP en la Sección perfil en el campo dirección,
                                         puede actualizarla y darle la opción Aceptar.
                                     </div>
                                 </div>
@@ -335,127 +252,85 @@
                             <div class="card">
                                 <div class="card-header" id="headingFourteen">
                                     <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                            data-target="#collapseFourteen" aria-expanded="false"
-                                            aria-controls="collapseFourteen"> ¿Puedo usar más de una cuenta de la App en
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen"> ¿Puedo usar más de una cuenta de la App en
                                             el teléfono? </button>
                                     </h5>
                                 </div>
-                                <div id="collapseFourteen" class="collapse" aria-labelledby="headingFourteen"
-                                    data-parent="#accordion2">
-                                    <div class="card-body justify-text"> Por seguridad, se tiene un dispositivo para un
-                                        cliente sin importar si el equipo tenga disponible más de 1 sim card. En un
-                                        dispositivo solo se puede registrar un cliente con un número de teléfono y
-                                        correo electrónico.
+                                <div id="collapseFourteen" class="collapse" aria-labelledby="headingFourteen" data-parent="#accordion2">
+                                    <div class="card-body justify-text"> Por seguridad, se tiene un dispositivo para un cliente sin importar si el equipo tenga disponible más de 1 sim card. En un dispositivo solo se puede registrar un cliente con un número de teléfono y correo electrónico.
                                     </div>
                                 </div>
                             </div>
                             <div class="card">
                                 <div class="card-header" id="headingFiveteen">
                                     <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                            data-target="#collapseFiveteen" aria-expanded="false"
-                                            aria-controls="collapseFiveteen"> ¿Recaudos para solicitar tarjeta de
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFiveteen" aria-expanded="false" aria-controls="collapseFiveteen"> ¿Recaudos para solicitar tarjeta de
                                             débito, que puede usar <br> para recibir remesas? </button>
                                     </h5>
                                 </div>
-                                <div id="collapseFiveteen" class="collapse" aria-labelledby="headingFiveteen"
-                                    data-parent="#accordion2">
-                                    <div class="card-body justify-text"> Para solicitar la tarjeta de débito que va a
-                                        usar para recibir remesas, debe indicar: lugar, fecha de emisión y vencimiento
-                                        del documento de identidad. Adicionalmente, la App le pedirá que suba los
-                                        siguientes documentos:
+                                <div id="collapseFiveteen" class="collapse" aria-labelledby="headingFiveteen" data-parent="#accordion2">
+                                    <div class="card-body justify-text"> Para solicitar la tarjeta de débito que va a usar para recibir remesas, debe indicar: lugar, fecha de emisión y vencimiento del documento de identidad. Adicionalmente, la App le pedirá que suba los siguientes documentos:
                                         documento de identidad, firma (la realiza en ese momento), huella y rif. </div>
                                 </div>
                             </div>
                             <div class="card">
                                 <div class="card-header" id="headingSixteen">
                                     <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                            data-target="#collapseSixteen" aria-expanded="false"
-                                            aria-controls="collapseSixteen"> ¿Qué hacer cuando dice datos incompletos
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen"> ¿Qué hacer cuando dice datos incompletos
                                             (Incompleted <br> data) y por qué sale? </button>
                                     </h5>
                                 </div>
-                                <div id="collapseSixteen" class="collapse" aria-labelledby="headingSixteen"
-                                    data-parent="#accordion2">
-                                    <div class="card-body justify-text"> Algunas transacciones por seguridad requieren
-                                        completar documentos que no se tienen registros, estos se solicitan la primera
-                                        vez. Algunos de estos documentos que por lo general se solicitan son el
-                                        documento de identidad
-                                        o cédula de identidad, firma digital, huella digital, rif. La App le indica
-                                        cuales documentos le faltan y cómo debe subirlo al sistema. </div>
+                                <div id="collapseSixteen" class="collapse" aria-labelledby="headingSixteen" data-parent="#accordion2">
+                                    <div class="card-body justify-text"> Algunas transacciones por seguridad requieren completar documentos que no se tienen registros, estos se solicitan la primera vez. Algunos de estos documentos que por lo general se solicitan son el documento de identidad
+                                        o cédula de identidad, firma digital, huella digital, rif. La App le indica cuales documentos le faltan y cómo debe subirlo al sistema. </div>
                                 </div>
                             </div>
                             <div class="card">
                                 <div class="card-header" id="headingSeventeen">
                                     <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                            data-target="#collapseSeventeen" aria-expanded="false"
-                                            aria-controls="collapseSeventeen"> ¿Cómo cambio mi número de teléfono y/o
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen"> ¿Cómo cambio mi número de teléfono y/o
                                             correo, una vez <br> que ya me registré? </button>
                                     </h5>
                                 </div>
-                                <div id="collapseSeventeen" class="collapse" aria-labelledby="headingSeventeen"
-                                    data-parent="#accordion2">
-                                    <div class="card-body justify-text"> Para poder cambiar esos datos sensibles, por
-                                        seguridad se debe hacer por nuestro personal, para ello envíe correo electrónico
-                                        a pepin@italcambio.com indicando los datos actuales y nuevos del número de
-                                        teléfono y/o nombre
+                                <div id="collapseSeventeen" class="collapse" aria-labelledby="headingSeventeen" data-parent="#accordion2">
+                                    <div class="card-body justify-text"> Para poder cambiar esos datos sensibles, por seguridad se debe hacer por nuestro personal, para ello envíe correo electrónico a pepin@italcambio.com indicando los datos actuales y nuevos del número de teléfono y/o nombre
                                         del correo. </div>
                                 </div>
                             </div>
                             <div class="card">
                                 <div class="card-header" id="headingEightteen">
                                     <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                            data-target="#collapseEightteen" aria-expanded="false"
-                                            aria-controls="collapseEightteen"> ¿Cambié de equipo telefónico y ya me
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEightteen" aria-expanded="false" aria-controls="collapseEightteen"> ¿Cambié de equipo telefónico y ya me
                                             había registrado en el <br> anterior, qué debo hacer para actualizarlo?
                                         </button>
                                     </h5>
                                 </div>
-                                <div id="collapseEightteen" class="collapse" aria-labelledby="headingEightteen"
-                                    data-parent="#accordion2">
-                                    <div class="card-body justify-text"> Para proceder a actualizar su nuevo equipo, por
-                                        seguridad se debe hacer por nuestro personal, para ello envíe correo electrónico
-                                        a pepin@italcambio.com indicando los datos actuales del número de teléfono,
-                                        cédula de
+                                <div id="collapseEightteen" class="collapse" aria-labelledby="headingEightteen" data-parent="#accordion2">
+                                    <div class="card-body justify-text"> Para proceder a actualizar su nuevo equipo, por seguridad se debe hacer por nuestro personal, para ello envíe correo electrónico a pepin@italcambio.com indicando los datos actuales del número de teléfono, cédula de
                                         identidad. </div>
                                 </div>
                             </div>
                             <div class="card">
                                 <div class="card-header" id="headingNineteen">
                                     <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                            data-target="#collapseNineteen" aria-expanded="false"
-                                            aria-controls="collapseNineteen"> ¿Por qué me indica datos incompletos, su
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen"> ¿Por qué me indica datos incompletos, su
                                             email y su teléfono <br> existen? </button>
                                     </h5>
                                 </div>
-                                <div id="collapseNineteen" class="collapse" aria-labelledby="headingNineteen"
-                                    data-parent="#accordion2">
-                                    <div class="card-body justify-text"> Esto indica que usted ya está registrado e
-                                        intentó registrarse nuevamente. Para registrarse se utiliza el menú PERFIL y la
-                                        opción Registro. Para actualizar el perfil se utiliza el menú PERFIL, se coloca
-                                        el PIN y se
+                                <div id="collapseNineteen" class="collapse" aria-labelledby="headingNineteen" data-parent="#accordion2">
+                                    <div class="card-body justify-text"> Esto indica que usted ya está registrado e intentó registrarse nuevamente. Para registrarse se utiliza el menú PERFIL y la opción Registro. Para actualizar el perfil se utiliza el menú PERFIL, se coloca el PIN y se
                                         presiona Aceptar. </div>
                                 </div>
                             </div>
                             <div class="card">
                                 <div class="card-header" id="headingTwenty">
                                     <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                            data-target="#collapseTwenty" aria-expanded="false"
-                                            aria-controls="collapseTwenty"> ¿Qué puedo hacer ante cualquier
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwenty" aria-expanded="false" aria-controls="collapseTwenty"> ¿Qué puedo hacer ante cualquier
                                             duda?</button>
                                     </h5>
                                 </div>
-                                <div id="collapseTwenty" class="collapse" aria-labelledby="headingTwenty"
-                                    data-parent="#accordion2">
-                                    <div class="card-body justify-text"> Puede comunicarse a través del email
-                                        pepin@italcambio.com donde nuestros asesores le atenderán sus dudas e
-                                        inquietudes. </div>
+                                <div id="collapseTwenty" class="collapse" aria-labelledby="headingTwenty" data-parent="#accordion2">
+                                    <div class="card-body justify-text"> Puede comunicarse a través del email pepin@italcambio.com donde nuestros asesores le atenderán sus dudas e inquietudes. </div>
                                 </div>
                             </div>
                         </div>
@@ -492,8 +367,7 @@
                         <a href="./resources/XATOXI_RECEPCION_REMESA.pdf">
                             <h3 class="smb"><b>Recepción</b></h3>
                             <figure class="figure-gallery">
-                                <img src="./images/XATOXI_RECEPCION_REMESA-1.png" class="card-img-top img-gallery"
-                                    alt="">
+                                <img src="./images/XATOXI_RECEPCION_REMESA-1.png" class="card-img-top img-gallery" alt="">
                             </figure>
                         </a>
                     </div>
@@ -501,8 +375,7 @@
                         <a href="./resources/XATOXI_SOLICITUD_TARJETA_DEBITO.pdf">
                             <h3 class="smb"><b>Tarjeta de Débito</b></h3>
                             <figure class="figure-gallery">
-                                <img src="./images/XATOXI_SOLICITUD_TARJETA_DEBITO.png" class="card-img-top img-gallery"
-                                    alt="">
+                                <img src="./images/XATOXI_SOLICITUD_TARJETA_DEBITO.png" class="card-img-top img-gallery" alt="">
                             </figure>
                         </a>
                     </div>
@@ -529,8 +402,7 @@
                                 Apps
                             </strong>
                         </h2>
-                        <a title="Go to home the app" aria-label="Go to home the app"
-                            href="http://www.xatoxi.com/italcambio/index.php">
+                        <a title="Go to home the app" aria-label="Go to home the app" href="http://www.xatoxi.com/italcambio/index.php">
                             <figure>
                                 <picture>
                                     <source srcset="./images/logoApp.png">
@@ -539,11 +411,8 @@
                             </figure>
                         </a>
                         <p>
-                            La App Móvil ITALCAMBIO te ofrece: <br> ✓ Recepción y Envío de Remesas instantáneas desde
-                            cualquier parte del mundo. <br> ✓ Pagar a personas naturales y jurídicas de forma inmediata.
-                            <br> ✓ Operaciones de cambio de instrumentos
-                            financieros en divisa. <br> ✓ Pagar tus operaciones con alternativas tecnológicas.<br> ✓
-                            Seguridad con tecnología cifrada de punta a punta. <br>
+                            La App Móvil ITALCAMBIO te ofrece: <br> ✓ Recepción y Envío de Remesas instantáneas desde cualquier parte del mundo. <br> ✓ Pagar a personas naturales y jurídicas de forma inmediata.
+                            <br> ✓ Operaciones de cambio de instrumentos financieros en divisa. <br> ✓ Pagar tus operaciones con alternativas tecnológicas.<br> ✓ Seguridad con tecnología cifrada de punta a punta. <br>
                         </p>
                     </div>
                 </aside>
@@ -599,9 +468,16 @@
             </div>
         </div>
     </footer>
-    <a class="btn btn-primary back-to-top" title="Go up" aria-label="Go up">
+    <!-- <a class="btn btn-primary back-to-top" title="Go up" aria-label="Go up">
         <i class="fas fa-chevron-up"></i>
-    </a>
+    </a> -->
+
+    <!-- icono de pepin -->
+    <div class="div-pepin">
+        <button id="pepin" class="btn-pepin"><img src="./images/pepinvs1.jpg" alt="" class="w-100"></button>
+    </div>
+
+    <script src="./js/main.js" type="text/javascript"></script>
     <script src="./js/jquery.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/jquery/buttons.js"></script>

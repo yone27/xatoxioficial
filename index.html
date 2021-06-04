@@ -28,46 +28,30 @@
 
 <body>
     <header class=" menu-b" data-spy="affix" data-offset-top="0" style="background-color: rgba(0, 0, 0, .5);">
-        <nav class="navbar navbar-expand-lg" role="navigation">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container fluid-md-less">
-                <div class="navbar-header">
-                    <button class="navbar-toggle collapsed" title="Mobile menu" aria-label="Mobile menu" type="button" data-toggle="collapse" data-target="#menu" aria-expanded="false">
-                        <span class="sr-only"> Mobile menu </span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand hidden" title="Go to home Xatoxi" aria-label="Go to home Xatoxi" href="./index.html">
-                        <figure>
-                            <picture>
-                                <source srcset="./images/xatoxi.jpeg" type="image/webp">
-                                <img src="./images/xatoxi.jpeg" title="Xatoxi Logo" alt="Xatoxi Logo">
-                            </picture>
-                        </figure>
-                    </a>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="menu" aria-expanded="false">
-                    <!--Menu-->
-                    <ul class="nav navbar-nav">
-                        <li class="dropdown">
-                            <a title="About" aria-label="About" href="#view-more"> About </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon p-4"></span>
+                </button>
+                <div class="collapse navbar-collapse aling-initial" id="navbarNav">
+                    <ul class="navbar-nav ul-menu">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> About </a>
                         </li>
-                        <li class="dropdown">
-                            <a title="Apps" aria-label="Apps" href="#mifooter"> Apps </a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#mifooter"> Apps </a>
                         </li>
-                        <li class="dropdown">
-                            <a title="Privacy" aria-label="Privacy" href="http://www.xatoxi.com/privacy/dpp.pdf">
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://www.xatoxi.com/privacy/dpp.pdf">
                                 Privacy </a>
                         </li>
-                        <li class="dropdown">
-                            <a title="Contact" aria-label="Contact" href="#mifooter"> Contact </a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#mifooter"> Contact </a>
                         </li>
-                        <li class="dropdown">
-                            <a title="FAQ" aria-label="FAQ" href="askedQuestions.html"> FAQ </a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="askedQuestions.html"> FAQ </a>
                         </li>
                     </ul>
-                    <!--/Menu-->
                 </div>
             </div>
         </nav>
@@ -186,9 +170,16 @@
             </div>
         </div>
     </footer>
-    <a class="btn btn-primary back-to-top" title="Go up" aria-label="Go up">
+    <!-- <a class="btn btn-primary back-to-top" title="Go up" aria-label="Go up">
         <i class="fas fa-chevron-up"></i>
-    </a>
+    </a> -->
+
+    <!-- icono de pepin -->
+    <div class="div-pepin">
+        <button id="pepin" class="btn-pepin"><img src="./images/pepinvs1.jpg" alt="" class="w-100"></button>
+    </div>
+
+    <script src="./js/main.js" type="text/javascript"></script>
     <script src="./js/jquery.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/jquery/buttons.js"></script>
