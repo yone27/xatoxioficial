@@ -232,9 +232,6 @@ body>header .navbar .navbar-nav li.active>a:active {
     min-height: 75px;
 }
 
-.our-faq-wrapper .btn-link:hover,
-.our-faq-wrapper .btn-link:focus {}
-
 .our-faq-wrapper .btn-link:after {
     position: absolute;
     content: url(../images/btn-close.png);
@@ -368,4 +365,17 @@ body>header .navbar .navbar-nav li.active>a:active {
 
 .aling-initial {
     text-align: initial;
+}
+
+.new-icon-card {
+    position: absolute;
+    width: 7%;
+    margin-top: -6.5em;
+    margin-left: -10px;
+}
+
+.new-icon-info {
+    position: absolute;
+    width: 25%;
+    margin-left: -10px;
 }

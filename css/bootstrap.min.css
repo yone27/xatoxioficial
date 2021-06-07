@@ -5246,9 +5246,10 @@ input[type=submit].btn-block {
     overflow-anchor: none
 }
 
-.accordion>.card {
+
+/* .accordion>.card {
     overflow: hidden
-}
+} */
 
 .accordion>.card:not(:last-of-type) {
     border-bottom: 0;
