@@ -30340,6 +30340,12 @@ body>footer.center .sub-footer .advice {
     }
 }
 
+@media (max-width: 991px) {
+    .address{
+        text-align: center;
+    }
+}
+
 .horizontal-menu.default {
     margin-bottom: 50px;
     display: inline-block;
@@ -49126,7 +49132,10 @@ body>footer .sub-footer .advice {
     body>footer .footer>.row {
         background-color: #333;
         display: block;
-        padding: 30px 0
+        padding: 30px 0;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
     }
     body>footer .footer>.row>[class*="col-"] {
         display: block;
@@ -49135,7 +49144,7 @@ body>footer .sub-footer .advice {
         padding-top: 0
     }
     body>footer .footer>.row>[class*="col-"] .spacing-footer {
-        text-align: center
+        text-align: center  
     }
     body>footer .footer>.row>[class*="col-"] .spacing-footer address .address i {
         float: none
