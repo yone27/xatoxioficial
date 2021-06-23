@@ -17,7 +17,7 @@ h2 {
 }
 
 a {
-    color: #4682b4;
+    color: red;
 }
 
 body.transparent>header .navbar .navbar-nav li a {
@@ -51,14 +51,14 @@ body>header.menu-b .navbar .navbar-nav li.dropdown:hover>a {
 
 .btn-primary {
     color: #fff;
-    background-color: #4682b4;
-    border-color: #4682b4;
+    background-color: red;
+    border-color: red;
 }
 
 .btn-primary:hover {
     color: #fff;
     background-color: #2a6698;
-    border-color: #4682b4;
+    border-color: red;
 }
 
 h1 strong,
@@ -73,7 +73,7 @@ h6 strong,
 .h4 strong,
 .h5 strong,
 .h6 strong {
-    color: #4682b4;
+    color: red;
 }
 
 .section.about.about-a .container>.row>[class*="col-"],
@@ -84,12 +84,12 @@ h6 strong,
 }
 
 .section.spacer.spacer-a {
-    background-color: #4682b4;
+    background-color: red;
     border-bottom: 8px solid #2c516f;
 }
 
 .section.spacer.spacer-a:after {
-    background-color: #4682b4;
+    background-color: red;
     border: 8px solid #2c516f;
     border-left-color: transparent;
     border-top-color: transparent;
@@ -102,11 +102,11 @@ h6 strong,
 }
 
 body>header .navbar .navbar-toggle:hover {
-    background-color: #4682b4 !important;
+    background-color: red !important;
 }
 
 body>header .navbar .navbar-toggle {
-    background-color: #4682b4 !important;
+    background-color: red !important;
 }
 
 body>header .navbar .navbar-toggle:hover .icon-bar {
@@ -114,26 +114,26 @@ body>header .navbar .navbar-toggle:hover .icon-bar {
 }
 
 body>header .navbar .navbar-collapse .navbar-nav li.dropdown:hover>a {
-    background-color: #4682b4 !important;
+    background-color: red !important;
 }
 
 body>header .navbar .navbar-nav li>a:hover {
-    background-color: #4682b4 !important;
+    background-color: red !important;
 }
 
 body>header .navbar .navbar-nav li>a:hover {
-    background-color: #4682b4 !important;
+    background-color: red !important;
 }
 
 body>header .navbar .navbar-collapse .navbar-nav li.dropdown:hover>a {
-    box-shadow: inset 4px 0 #4682b4;
+    box-shadow: inset 4px 0 red;
     background-color: #222;
     color: #ffffff;
 }
 
 body>header .navbar .navbar-nav li>a:hover {
-    box-shadow: inset 0 -4px #4682b4 !important;
-    color: #4682b4;
+    box-shadow: inset 0 -4px red !important;
+    color: red;
 }
 
 .section.about.about-a {
@@ -153,13 +153,13 @@ body>header .navbar .navbar-nav li>a:hover {
 }
 
 body>header .navbar .navbar-nav li.active>a {
-    box-shadow: inset 0 -4px #4682b4 !important;
-    color: #4682b4;
+    box-shadow: inset 0 -4px red !important;
+    color: red;
 }
 
 body>header .navbar .navbar-nav li.active>a:focus,
 body>header .navbar .navbar-nav li.active>a:active {
-    color: #4682b4;
+    color: red;
 }
 
 .wrapper-question {
@@ -249,7 +249,7 @@ body>header .navbar .navbar-nav li.active>a:active {
 .our-faq-wrapper .btn-link:before {
     position: absolute;
     content: '';
-    background: #4682b4;
+    background: red;
     -webkit-transform: skew(-35deg);
     transform: skew(-35deg);
     height: 100%;
@@ -286,7 +286,7 @@ body>header .navbar .navbar-nav li.active>a:active {
     width: 50%;
     left: 0;
     bottom: 0;
-    background: #4682b4;
+    background: red;
     z-index: 1;
 }
 
